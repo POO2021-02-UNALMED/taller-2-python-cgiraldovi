@@ -5,15 +5,15 @@ class Asiento:
         self.registro = registro
 
     def cambiarColor(cls, color):
-        if(color.equals("rojo")):
+        if(color == "rojo"):
             cls.color = color
-        elif(color.equals("verde")):
+        elif(color == "verde"):
             cls.color = color;
-        elif(color.equals("amarillo")):
+        elif(color == "amarillo"):
             cls.color = color
-        elif(color.equals("negro")):
+        elif(color == "negro"):
             cls.color = color
-        elif(color.equals("blanco")):
+        elif(color == "blanco"):
             cls.color = "blanco"
 
 class Motor:
@@ -28,9 +28,9 @@ class Motor:
 
     def asignarTipo(cls,tipo):
 
-        if(tipo.equals("gasolina")):
+        if(tipo == "gasolina"):
             cls.tipo = "gasolina"
-        elif(tipo.equals("electrico")):
+        elif(tipo == "electrico"):
             cls.tipo = "electrico";
 
 
