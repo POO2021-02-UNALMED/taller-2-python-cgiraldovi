@@ -73,4 +73,3 @@ class Auto:
             return "Auto original"
         else:
             return "Las piezas no son originales"
-
